@@ -1,7 +1,7 @@
 百晓生┃影视,#genre#
-微信公众号,https://cdn05042023.gitlink.org.cn/api/v1/repos/YSBXS/LMYS/raw/BXS.mp4
-影视百晓生,https://cdn05042023.gitlink.org.cn/api/v1/repos/YSBXS/LMYS/raw/BXS.mp4
-赞赏码专用,https://cdn05042023.gitlink.org.cn/api/v1/repos/YSBXS/LMYS/raw/BXS.mp4
+微信公众号,https://cdn05042023.gitlink.org.cn/api/v1/repos/YSBXS/LMYS/raw/MP4/BXS01.mp4
+影视百晓生,https://cdn05042023.gitlink.org.cn/api/v1/repos/YSBXS/LMYS/raw/MP4/BXS02.mp4
+赞赏码专用,https://cdn05042023.gitlink.org.cn/api/v1/repos/YSBXS/LMYS/raw/MP4/BXS03.mp4
 央视频道,#genre#
 CCTV1 综合,http://[2409:8087:1a01:df::7005]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226559/index.m3u8
 CCTV2 财经,http://[2409:8087:1a01:df::7005]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226540/index.m3u8
