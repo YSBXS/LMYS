@@ -122,6 +122,7 @@
         "ratio": 1.433
       },
       "ext": {
+        "commonConfig": "./peizhi.json",
         "json": "./youtube.json",
         "cookie": ""
       }
