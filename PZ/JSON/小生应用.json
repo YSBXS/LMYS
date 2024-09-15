@@ -1,0 +1,36 @@
+[
+    {
+        "name": "小生推荐应用",
+        "list": [
+            {
+                "name": "电视-java",
+                "url": "https://raw.githubusercontent.com/YSBXS/BXSYS/main/apk/release/leanback-java-armeabi_v7a.apk",
+                "icon": "https://www.gitlink.org.cn/api/YSBXS/ZYK/raw/png%2FBXS01.png?ref=master",
+                "version": "32位"
+            },
+            {
+                "name": "手机-java",
+                "url": "https://raw.githubusercontent.com/YSBXS/BXSYS/main/apk/release/mobile-java-arm64_v8a.apk",
+                "icon": "https://www.gitlink.org.cn/api/YSBXS/ZYK/raw/png%2FBXS02.png?ref=master",
+                "version": "64位"
+            }
+        ]
+    },
+    {
+        "name": "百晓生影视",
+        "list": [
+            {
+                "name": "电视-java",
+                "url": "https://raw.githubusercontent.com/YSBXS/BXSYS/main/apk/release/leanback-java-armeabi_v7a.apk",
+                "icon": "https://www.gitlink.org.cn/api/YSBXS/ZYK/raw/png%2FBXS01.png?ref=master",
+                "version": "32位"
+            },
+            {
+                "name": "手机-java",
+                "url": "https://raw.githubusercontent.com/YSBXS/BXSYS/main/apk/release/mobile-java-arm64_v8a.apk",
+                "icon": "https://www.gitlink.org.cn/api/YSBXS/ZYK/raw/png%2FBXS02.png?ref=master",
+                "version": "64位"
+            }
+        ]
+    }
+]
