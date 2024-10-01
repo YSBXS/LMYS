@@ -49,7 +49,7 @@
       "changeable": 0,
       "ext": {
         "commonConfig": "./peizhi.json",
-        "siteUrl": "https://labipan.com/",
+        "siteUrl": "http://labipan.com/",
         "filter": "./wogg.json"
       }
     },
@@ -61,6 +61,33 @@
       "searchable": 0,
       "changeable": 0,
       "ext": {
+        "commonConfig": "./peizhi.json"
+      }
+    },
+    {
+      "key": "TgYunPan|服务器",
+      "name": "TgYunPan|服务器",
+      "type": 3,
+      "api": "csp_TgYunPan",
+      "searchable": 1,
+      "filterable": 0,
+      "switchable": 0,
+      "ext": {
+        "siteUrl": "你的服务器地址端口",
+        "channelUsername": "hao115,guaguale115,dianyingshare,XiangxiuNB,yunpanpan,kuakeyun,zaihuayun,Quark_Movies,alyp_4K_Movies,vip115hot,yunpanshare,ucwangpan,Quark_Share_Channel,Aliyundrive_Share_Channel,shareAliyun,ikiviyyp,wanwansubchat,wangpanziyuan2021,alyp_1,quanziyuanshe",
+        "commonConfig": "./peizhi.json"
+      }
+    },
+    {
+      "key": "TgYunPan|本地",
+      "name": "TgYunPan|本地",
+      "type": 3,
+      "api": "csp_TgYunPanLocal",
+      "searchable": 1,
+      "filterable": 0,
+      "switchable": 0,
+      "ext": {
+        "channelUsername": "hao115,guaguale115,dianyingshare,XiangxiuNB,yunpanpan,kuakeyun,zaihuayun,Quark_Movies,alyp_4K_Movies,vip115hot,yunpanshare,ucwangpan,Quark_Share_Channel,Aliyundrive_Share_Channel,shareAliyun,ikiviyyp,wanwansubchat,wangpanziyuan2021,alyp_1,quanziyuanshe",
         "commonConfig": "./peizhi.json"
       }
     },
@@ -85,6 +112,7 @@
       "filterable": 0,
       "switchable": 0,
       "ext": {
+        "cookie": "",
         "commonConfig": "./peizhi.json"
       }
     },
@@ -134,100 +162,7 @@
       "api": "csp_Jianpian",
       "searchable": 1,
       "changeable": 1,
-      "ext": "https://ghproxy.net/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/json/jianpian.json"
-    },
-    {
-      "key": "TgYunPanLocal1",
-      "name": "TgYunPanLocal1",
-      "type": 3,
-      "api": "csp_TgYunPanLocal",
-      "searchable": 1,
-      "filterable": 0,
-      "switchable": 0,
-      "ext": {
-        "channelUsername": "yunpanshare",
-        "commonConfig": "./peizhi.json"
-      }
-    },
-    {
-      "key": "TgYunPanLocal2",
-      "name": "TgYunPanLocal2",
-      "type": 3,
-      "api": "csp_TgYunPanLocal",
-      "searchable": 1,
-      "filterable": 0,
-      "switchable": 0,
-      "ext": {
-        "channelUsername": "shareAliyun",
-        "commonConfig": "./peizhi.json"
-      }
-    },
-    {
-      "key": "TgYunPanLocal3",
-      "name": "TgYunPanLocal3",
-      "type": 3,
-      "api": "csp_TgYunPanLocal",
-      "searchable": 1,
-      "filterable": 0,
-      "switchable": 0,
-      "ext": {
-        "channelUsername": "kuakeyun",
-        "commonConfig": "./peizhi.json"
-      }
-    },
-    {
-      "key": "TgYunPanLocal4",
-      "name": "TgYunPanLocal4",
-      "type": 3,
-      "api": "csp_TgYunPanLocal",
-      "searchable": 1,
-      "filterable": 0,
-      "switchable": 0,
-      "ext": {
-        "channelUsername": "qixingzhenren",
-        "commonConfig": "./peizhi.json"
-      }
-    },
-    {
-      "key": "TgYunPanLocal5",
-      "name": "TgYunPanLocal5",
-      "type": 3,
-      "api": "csp_TgYunPanLocal",
-      "searchable": 1,
-      "filterable": 0,
-      "switchable": 0,
-      "ext": {
-        "channelUsername": "guaguale115",
-        "commonConfig": "./peizhi.json"
-      }
-    },
-    {
-      "key": "tg服务器搜",
-      "name": "tg服务器搜",
-      "type": 3,
-      "api": "csp_TgYunPan",
-      "searchable": 1,
-      "filterable": 0,
-      "switchable": 0,
-      "ext": {
-        "siteUrl": "你的服务器地址端口",
-        "channelUsername": "yunpanshare",
-        "commonConfig": "./peizhi.json"
-      }
-    },
-    {
-      "key": "tg服务器搜1",
-      "name": "tg服务器搜1",
-      "type": 3,
-      "api": "csp_TgYunPan",
-      "searchable": 1,
-      "filterable": 0,
-      "switchable": 0,
-      "ext": {
-        "siteUrl": "你的服务器地址端口",
-        "channelUsername": "yunpanshare",
-        "commonConfig": "./peizhi.json"
-      }
+      "ext": "https://ghp.ci/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/json/jianpian.json"
     },
     {
       "key": "网盘集合",
