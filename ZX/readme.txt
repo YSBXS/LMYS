@@ -6,6 +6,10 @@
 
 
 今日更新
+1.singbox和tgsou内核改为gitlab cdn下载 又快又稳
+
+
+
 1.新增tgsou 服务器本地运行模式
   配置中增加 "tgsou_api_session":"" 替换成自己的193316_session_0.txt文件里的值，第一次运行需要过一下网盘类csp 启动服务
   注意：新的授权方式 可以用其他服务器 先获取193316_session_0.txt授权文件  之后就可以复制文件的值 填到tgsou_api_session配置处
