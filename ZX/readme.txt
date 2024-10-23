@@ -1,3 +1,8 @@
+
+
+更多使用信息参阅https://t.me/juejijianghu 发布频道
+             https://t.me/juejijianghuchat 聊天频道 
+
 各网盘ck配置可以参考alist里的网盘添加
 
 配置"pwdRb115": "" 115安全删除密码后 会自动删除转的文件 空间大的留空就行 
@@ -5,7 +10,28 @@
 网盘集合.json 支持根据share_index名进行聚合（不同网盘也可以随意聚合）以减少分类数目  分类更加清晰  可以参考网盘集合.json写法
 
 
-今日更新
+今日必须更新
+1.新增csp_TgYunDouBanPan 直接从豆瓣播放tg搜索结果
+
+
+1.之前的仓库炸了 必须换别的仓
+
+
+
+1.提高sb运行成功率，增加sb错误日志
+
+1.新增lf zb转点播（去掉原lf 18+频道）
+
+1.新增肥羊zb(感谢pg佬编译文件和配置文件) 需更新FongMi.json配置源
+2.豆瓣增加网盘初始化事件 需更新douban配置源
+
+
+1.整理配置文件路径
+2.去除豆瓣js 改为java
+3.tgsou 兼容更多手机运行 运行日志在tv/my_tgoutput.log目录
+4.新增几个caiji源
+
+
 1.singbox和tgsou内核改为gitlab cdn下载 又快又稳
 
 

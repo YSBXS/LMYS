@@ -1,16 +1,77 @@
 {
   "spider": "./custom_spider.jar;md5;43989964965deab2a4b6b48251043412",
+  "lives": [
+    {
+      "name": "feiyang.allinone",
+      "type": 0,
+      "url": "http://127.0.0.1:35455/tv.m3u",
+      "ua": "okhttp/3.15",
+      "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
+    {
+      "name": "feiyang.tptv",
+      "type": 0,
+      "url": "http://127.0.0.1:35455/tptv.m3u",
+      "ua": "okhttp/3.15",
+      "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
+    {
+      "name": "feiyang.bililive",
+      "type": 0,
+      "url": "http://127.0.0.1:35455/bililive.m3u",
+      "ua": "okhttp/3.15",
+      "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
+    {
+      "name": "feiyang.huyayqk",
+      "type": 0,
+      "url": "http://127.0.0.1:35455/huyayqk.m3u",
+      "ua": "okhttp/3.15",
+      "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
+    {
+      "name": "feiyang.douyuyqk",
+      "type": 0,
+      "url": "http://127.0.0.1:35455/douyuyqk.m3u",
+      "ua": "okhttp/3.15",
+      "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
+    {
+      "name": "feiyang.yylunbo",
+      "type": 0,
+      "url": "http://127.0.0.1:35455/yylunbo.m3u",
+      "ua": "okhttp/3.15",
+      "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    }
+  ],
   "sites": [
     {
-      "key": "dr_豆瓣",
-      "name": "🔍豆瓣荐片(js)",
+      "key": "TgYunDouBanPan|服务器",
+      "name": "TgYunDouBanPan|服务器",
       "type": 3,
-      "api": "./js/lib/drpy2.min.js",
-      "searchable": 2,
-      "quickSearch": 0,
+      "api": "csp_TgYunDouBanPan",
+      "searchable": 1,
       "filterable": 0,
-      "ext": "./js/douban.js"
+      "switchable": 0,
+      "ext": {
+        "siteUrl": "http://127.0.0.1:9999",
+        "channelUsername": "hao115,guaguale115,dianyingshare,XiangxiuNB,yunpanpan,kuakeyun,zaihuayun,Quark_Movies,alyp_4K_Movies,vip115hot,yunpanshare,ucwangpan,Quark_Share_Channel,Aliyundrive_Share_Channel,shareAliyun,ikiviyyp,wanwansubchat,wangpanziyuan2021,alyp_1,quanziyuanshe",
+        "commonConfig": "./json/peizhi.json",
+        "filter": "./json/douban.json"
+      }
     },
+//    {"key":"豆瓣","name":"豆瓣","type":3,"api":"csp_Douban","searchable":0,"changeable":1,
+//      "ext": {
+//        "commonConfig": "./json/peizhi.json",
+//        "filter": "./json/douban.json"
+//      }
+//    },
     {
       "key": "玩偶gg",
       "name": "玩偶gg",
@@ -19,10 +80,21 @@
       "searchable": 1,
       "changeable": 0,
       "ext": {
-        "commonConfig": "./peizhi.json",
+        "commonConfig": "./json/peizhi.json",
         "siteUrl": "https://www.wogg.bf/",
-        "filter": "./wogg.json"
+        "filter": "./json/wogg.json"
       }
+    },
+    {
+      "key": "lf_live10_min",
+      "name": " 路飞丨Live",
+      "type": 3,
+      "searchable": 0,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1,
+      "api": "./lib/lf_live10_min-output.js",
+      "ext": "./json/lf_live.json"
     },
     {
       "key": "哔哩FM",
@@ -36,8 +108,8 @@
         "ratio": 1.433
       },
       "ext": {
-        "json": "./bilibili.json",
-        "cookie": "qwewqddasdasd"
+        "json": "./json/bilibili.json",
+        "cookie": ""
       }
     },
     {
@@ -48,9 +120,9 @@
       "searchable": 1,
       "changeable": 0,
       "ext": {
-        "commonConfig": "./peizhi.json",
+        "commonConfig": "./json/peizhi.json",
         "siteUrl": "http://labipan.com/",
-        "filter": "./wogg.json"
+        "filter": "./json/wogg.json"
       }
     },
     {
@@ -61,23 +133,23 @@
       "searchable": 0,
       "changeable": 0,
       "ext": {
-        "commonConfig": "./peizhi.json"
+        "commonConfig": "./json/peizhi.json"
       }
     },
-    {
-      "key": "TgYunPan|服务器",
-      "name": "TgYunPan|服务器",
-      "type": 3,
-      "api": "csp_TgYunPan",
-      "searchable": 1,
-      "filterable": 0,
-      "switchable": 0,
-      "ext": {
-        "siteUrl": "http://127.0.0.1:9999",
-        "channelUsername": "hao115,guaguale115,dianyingshare,XiangxiuNB,yunpanpan,kuakeyun,zaihuayun,Quark_Movies,alyp_4K_Movies,vip115hot,yunpanshare,ucwangpan,Quark_Share_Channel,Aliyundrive_Share_Channel,shareAliyun,ikiviyyp,wanwansubchat,wangpanziyuan2021,alyp_1,quanziyuanshe",
-        "commonConfig": "./peizhi.json"
-      }
-    },
+//    {
+//      "key": "TgYunPan|服务器",
+//      "name": "TgYunPan|服务器",
+//      "type": 3,
+//      "api": "csp_TgYunPan",
+//      "searchable": 1,
+//      "filterable": 0,
+//      "switchable": 0,
+//      "ext": {
+//        "siteUrl": "http://127.0.0.1:9999",
+//        "channelUsername": "hao115,guaguale115,dianyingshare,XiangxiuNB,yunpanpan,kuakeyun,zaihuayun,Quark_Movies,alyp_4K_Movies,vip115hot,yunpanshare,ucwangpan,Quark_Share_Channel,Aliyundrive_Share_Channel,shareAliyun,ikiviyyp,wanwansubchat,wangpanziyuan2021,alyp_1,quanziyuanshe",
+//        "commonConfig": "./json/peizhi.json"
+//      }
+//    },
     {
       "key": "TgYunPan|本地",
       "name": "TgYunPan|本地",
@@ -88,7 +160,7 @@
       "switchable": 0,
       "ext": {
         "channelUsername": "hao115,guaguale115,dianyingshare,XiangxiuNB,yunpanpan,kuakeyun,zaihuayun,Quark_Movies,alyp_4K_Movies,vip115hot,yunpanshare,ucwangpan,Quark_Share_Channel,Aliyundrive_Share_Channel,shareAliyun,ikiviyyp,wanwansubchat,wangpanziyuan2021,alyp_1,quanziyuanshe",
-        "commonConfig": "./peizhi.json"
+        "commonConfig": "./json/peizhi.json"
       }
     },
     {
@@ -100,7 +172,7 @@
       "filterable": 0,
       "switchable": 0,
       "ext": {
-        "commonConfig": "./peizhi.json"
+        "commonConfig": "./json/peizhi.json"
       }
     },
     {
@@ -113,7 +185,7 @@
       "switchable": 0,
       "ext": {
         "cookie": "",
-        "commonConfig": "./peizhi.json"
+        "commonConfig": "./json/peizhi.json"
       }
     },
     {
@@ -124,7 +196,7 @@
       "searchable": 1,
       "changeable": 0,
       "ext": {
-        "commonConfig": "./peizhi.json"
+        "commonConfig": "./json/peizhi.json"
       }
     },
     {
@@ -135,7 +207,7 @@
       "searchable": 1,
       "changeable": 0,
       "ext": {
-        "commonConfig": "./peizhi.json"
+        "commonConfig": "./json/peizhi.json"
       }
     },
     {
@@ -150,8 +222,8 @@
         "ratio": 1.433
       },
       "ext": {
-        "commonConfig": "./peizhi.json",
-        "json": "./youtube.json",
+        "commonConfig": "./json/peizhi.json",
+        "json": "./json/youtube.json",
         "cookie": ""
       }
     },
@@ -173,8 +245,8 @@
       "filterable": 0,
       "switchable": 0,
       "ext": {
-        "commonConfig": "./peizhi.json",
-        "share": "./网盘集合.json"
+        "commonConfig": "./json/peizhi.json",
+        "share": "./json/网盘集合.json"
       }
     },
     {
@@ -186,8 +258,130 @@
       "filterable": 0,
       "switchable": 0,
       "ext": {
-        "commonConfig": "./peizhi.json"
+        "commonConfig": "./json/peizhi.json"
       }
+    },
+    {
+      "key": "360资源",
+      "name": "360资源-采集",
+      "type": 1,
+      "api": "https://360zy.com/api.php/seaxml/vod/",
+      "searchable": 1,
+      "changeable": 1,
+      "categories": [
+        "国产动漫",
+        "日韩动漫",
+        "国产剧",
+        "韩国剧",
+        "日本剧",
+        "电影片",
+        "连续剧",
+        "综艺片",
+        "动漫片",
+        "动作片",
+        "喜剧片",
+        "爱情片",
+        "科幻片",
+        "恐怖片",
+        "剧情片",
+        "战争片",
+        "香港剧",
+        "欧美剧",
+        "记录片",
+        "台湾剧",
+        "海外剧",
+        "泰国剧",
+        "大陆综艺",
+        "港台综艺",
+        "日韩综艺",
+        "欧美综艺",
+        "欧美动漫",
+        "港台动漫",
+        "海外动漫"
+      ]
+    },
+    {
+      "key": "非凡",
+      "name": "非凡",
+      "type": 1,
+      "api": "http://api.ffzyapi.com/api.php/provide/vod/",
+      "searchable": 1,
+      "changeable": 1,
+      "categories": [
+        "国产动漫",
+        "日韩动漫",
+        "国产剧",
+        "韩国剧",
+        "日本剧",
+        "电影片",
+        "连续剧",
+        "综艺片",
+        "动漫片",
+        "动作片",
+        "喜剧片",
+        "爱情片",
+        "科幻片",
+        "恐怖片",
+        "剧情片",
+        "战争片",
+        "香港剧",
+        "欧美剧",
+        "记录片",
+        "台湾剧",
+        "海外剧",
+        "泰国剧",
+        "大陆综艺",
+        "港台综艺",
+        "日韩综艺",
+        "欧美综艺",
+        "欧美动漫",
+        "港台动漫",
+        "海外动漫"
+      ]
+    },
+    {
+      "key": "量子",
+      "name": "量子",
+      "type": 1,
+      "api": "https://cj.lziapi.com/api.php/provide/vod/",
+      "searchable": 1,
+      "changeable": 1,
+      "categories": [
+        "国产动漫",
+        "日韩动漫",
+        "国产剧",
+        "韩国剧",
+        "日本剧",
+        "电影片",
+        "连续剧",
+        "综艺片",
+        "动漫片",
+        "动作片",
+        "喜剧片",
+        "爱情片",
+        "科幻片",
+        "恐怖片",
+        "剧情片",
+        "战争片",
+        "台湾剧",
+        "香港剧",
+        "欧美剧",
+        "记录片",
+        "海外剧",
+        "泰国剧",
+        "大陆综艺",
+        "港台综艺",
+        "日韩综艺",
+        "欧美综艺",
+        "欧美动漫",
+        "港台动漫",
+        "海外动漫",
+        "体育",
+        "足球",
+        "篮球",
+        "网球",
+        "斯诺克"
+      ]
     }
   ]
 }
