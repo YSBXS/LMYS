@@ -5,13 +5,13 @@
             {
                 "name": "电视-java",
                 "url": "https://raw.githubusercontent.com/YSBXS/BXSYS/main/apk/release/leanback-java-armeabi_v7a.apk",
-                "icon": "https://www.gitlink.org.cn/api/YSBXS/ZYK/raw/png%2FBXS01.png?ref=master",
+                "icon": "https://cdn09022024.gitlink.org.cn/YSBXS/ZYK/raw/master/png/BXS01.png",
                 "version": "32位"
             },
             {
                 "name": "手机-java",
                 "url": "https://raw.githubusercontent.com/YSBXS/BXSYS/main/apk/release/mobile-java-arm64_v8a.apk",
-                "icon": "https://www.gitlink.org.cn/api/YSBXS/ZYK/raw/png%2FBXS02.png?ref=master",
+                "icon": "https://cdn09022024.gitlink.org.cn/YSBXS/ZYK/raw/master/png/BXS02.png",
                 "version": "64位"
             }
         ]
@@ -22,13 +22,13 @@
             {
                 "name": "电视-java",
                 "url": "https://raw.githubusercontent.com/YSBXS/BXSYS/main/apk/release/leanback-java-armeabi_v7a.apk",
-                "icon": "https://www.gitlink.org.cn/api/YSBXS/ZYK/raw/png%2FBXS01.png?ref=master",
+                "icon": "https://cdn09022024.gitlink.org.cn/YSBXS/ZYK/raw/master/png/BXS01.png",
                 "version": "32位"
             },
             {
                 "name": "手机-java",
                 "url": "https://raw.githubusercontent.com/YSBXS/BXSYS/main/apk/release/mobile-java-arm64_v8a.apk",
-                "icon": "https://www.gitlink.org.cn/api/YSBXS/ZYK/raw/png%2FBXS02.png?ref=master",
+                "icon": "https://cdn09022024.gitlink.org.cn/YSBXS/ZYK/raw/master/png/BXS02.png",
                 "version": "64位"
             }
         ]
