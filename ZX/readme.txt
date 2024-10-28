@@ -10,7 +10,33 @@
 网盘集合.json 支持根据share_index名进行聚合（不同网盘也可以随意聚合）以减少分类数目  分类更加清晰  可以参考网盘集合.json写法
 
 
-今日必须更新
+今日更新
+1.配置中心新增fileBrowser 可以方便在web端管理电视sd卡目录 端口8080 默认不开启 点击后开启该功能
+
+
+
+1.tgsou服务器本地运行 只支持从配置中心导入session 增加tg扫码登陆
+2.由于tgsou加入扫码功能 体积都变大了 建议本地加载运行
+3.具体功能运行-h 获取
+options:
+  -h, --help     show this help message and exit
+  --auth AUTH    Authorization string for the session
+  --proxy PROXY  Proxy in the format: type:host:port. Type can be 'socks4', 'socks5', or 'http'.
+  --port PORT    start port default 9999
+  --qr           Enable QR code login
+  --picNone      Disable pic server
+
+
+1.新增从本地tv/lib 文件夹 加载二进制文件（singbox,allinone,tgsou）,所需文件可以从gitlab(https://gitlab.com/tvbox2/telegram-channel-video-downloader)自己下载后放入，比如tv/lib/allinone-arm64
+  注意：1.优先加载本地，本地没有的自动加载gitlab上的文件 singbox,allinone,tgsou文件如果更新 本地的需要自己手动更新 无法ota
+       2.go代理由于和jar有验证绑定关系 并且文件很小 规则暂时保持不变 不做本地化
+       3.删除本地tv/lib下二进制文件 即可恢复在线方式加载
+       4.在线加载二进制文件方式 只会下载一次 后面只会校验md5 以确定是否ota  除非软件重置或出现网络抖动
+
+
+
+
+
 1.新增csp_TgYunDouBanPan 直接从豆瓣播放tg搜索结果
 
 
